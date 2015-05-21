@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>Students</h1>
+{% for about in about_me %}
+<div>
+<h2><a href="/about_me/get/{{ about.id}}/">{{ About.title }}</a></h2>
+<p>{{ About.content }}</p>
+</div>
+{% endfor %}
+</body>
+</html>

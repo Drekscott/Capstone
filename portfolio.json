@@ -1,0 +1,266 @@
+[
+{
+    "fields": {
+        "url": "",
+        "name": "Will"
+    },
+    "model": "portfolio.client",
+    "pk": 1
+},
+{
+    "fields": {
+        "url": "",
+        "name": "Will"
+    },
+    "model": "portfolio.client",
+    "pk": 2
+},
+{
+    "fields": {
+        "url": "",
+        "name": "Will Smith"
+    },
+    "model": "portfolio.client",
+    "pk": 3
+},
+{
+    "fields": {
+        "url": "",
+        "name": "Bill Gates"
+    },
+    "model": "portfolio.client",
+    "pk": 4
+},
+{
+    "fields": {
+        "url": "",
+        "name": "Steve Jobs"
+    },
+    "model": "portfolio.client",
+    "pk": 5
+},
+{
+    "fields": {
+        "url": "",
+        "name": "Lauren Hill"
+    },
+    "model": "portfolio.client",
+    "pk": 6
+},
+{
+    "fields": {
+        "url": "",
+        "name": "central mich"
+    },
+    "model": "portfolio.client",
+    "pk": 7
+},
+{
+    "fields": {
+        "name": "Photoshop"
+    },
+    "model": "portfolio.medium",
+    "pk": 1
+},
+{
+    "fields": {
+        "name": "Illustrator"
+    },
+    "model": "portfolio.medium",
+    "pk": 2
+},
+{
+    "fields": {
+        "name": "HTML"
+    },
+    "model": "portfolio.medium",
+    "pk": 3
+},
+{
+    "fields": {
+        "name": "CSS"
+    },
+    "model": "portfolio.medium",
+    "pk": 4
+},
+{
+    "fields": {
+        "name": "idk"
+    },
+    "model": "portfolio.medium",
+    "pk": 5
+},
+{
+    "fields": {
+        "name": "Dreyton Scott",
+        "disciplines": "Computer Science Major/Art Minor",
+        "media": [
+            4,
+            3,
+            2
+        ],
+        "project_url": "http://twitter.com",
+        "completion_date": "2015-05-06",
+        "client": 3,
+        "upvotes": 0,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "2015-05-20 12:39:50.629691+00:00",
+        "description": "This project is a re-design of Munich's transportation identity and public transit maps for the S-Bahn and U-Bahn. The re-design for Munich's visual communication system is meant to enhance the clarity and ease of navigation, as well as to create a friendlier, more approachable international image. \r\n\u200b\r\nTaking inspiration from Munich's culture, this identity system incorporates traditional Bavarian patterns and letter forms. The color palette, composition, and logo all serve to update the city's image and evoke a kind-spirited attitude."
+    },
+    "model": "portfolio.project",
+    "pk": 1
+},
+{
+    "fields": {
+        "name": "John Doe",
+        "disciplines": " I specialize in responsive web design, custom Wordpress themes, and creating an overall positive user experience on the web.",
+        "media": [
+            3
+        ],
+        "project_url": "http://apple.com",
+        "completion_date": "2015-05-19",
+        "client": 5,
+        "upvotes": 0,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "2015-05-20 12:39:50.629691+00:00",
+        "description": "Im currently a Creative Designer at Virgin Experience Days producing artwork for all mediums, from print to web to motion graphics.\r\n\r\nI\u2019ve had the pleasure to work on projects such as rebranding Leisure Vouchers, multiple projects for Virgin Management, hand picked by Adobe to take part in their 3D Printing event #creativityforall and lots of other interesting things.\r\n\r\nI\u2019m a quick learner and love to explore new and interesting software and languages that could help develop my skills.\r\nI\u2019m make use of most of the suite of creative cloud apps, but strongest in Photoshop, InDesign, Illustrator and After Effects. I use Cinema 4d and more recently Modo for my 3d design work. For coding i use Sublime text 2 along with iTerm."
+    },
+    "model": "portfolio.project",
+    "pk": 2
+},
+{
+    "fields": {
+        "name": "asdfasdf",
+        "disciplines": "asd",
+        "media": [
+            2
+        ],
+        "project_url": "https://docs.djangoproject.com/en/1.8/topics/http/urls/",
+        "completion_date": "2015-05-19",
+        "client": 7,
+        "upvotes": 0,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "2015-05-20 12:39:50.629691+00:00",
+        "description": "adsfasdfasfasdf"
+    },
+    "model": "portfolio.project",
+    "pk": 3
+},
+{
+    "fields": {
+        "name": "adsfdasf",
+        "disciplines": "asdfa",
+        "media": [
+            4
+        ],
+        "project_url": "http://mgalgs.github.io/2012/11/01/making-django-app-reset-south-aware.html",
+        "completion_date": "2015-05-20",
+        "client": 4,
+        "upvotes": 1,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "upload_files/1432127755_82_imgres.jpg",
+        "description": "sdafasdf"
+    },
+    "model": "portfolio.project",
+    "pk": 4
+},
+{
+    "fields": {
+        "name": "adsfdasf",
+        "disciplines": "asdfa",
+        "media": [
+            4
+        ],
+        "project_url": "http://mgalgs.github.io/2012/11/01/making-django-app-reset-south-aware.html",
+        "completion_date": "2015-05-20",
+        "client": 4,
+        "upvotes": 1,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "upload_files/1432127802_26_imgres.jpg",
+        "description": "sdafasdf"
+    },
+    "model": "portfolio.project",
+    "pk": 5
+},
+{
+    "fields": {
+        "name": "Band man",
+        "disciplines": "pshhh",
+        "media": [
+            2
+        ],
+        "project_url": "http://stackoverflow.com/questions/26103005/django-core-exceptions-improperlyconfigured",
+        "completion_date": "2015-05-05",
+        "client": 4,
+        "upvotes": 7,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "upload_files/1432129607_47_imgres-1.jpg",
+        "description": "Today I needed to reset an app in a Django site I\u2019m working on. The problem is that I\u2019m using South on this app to track database schema migrations. Since I\u2019m using South, I can\u2019t just do:\r\n\r\npython manage.py reset myapp\r\nbecause that doesn\u2019t reset the South migration history. One solution I found floating around on the web got me pretty close, but it also coalesced all of my existing migrations into a single \u201cinitial\u201d migration, which I didn\u2019t want.\r\n\r\nAll I need to do to accomplish what I want (reset an app while maintaining existing migrations) is:"
+    },
+    "model": "portfolio.project",
+    "pk": 6
+},
+{
+    "fields": {
+        "name": " Bandit",
+        "disciplines": "my own",
+        "media": [
+            2
+        ],
+        "project_url": "http://stackoverflow.com/questions/11983885/django-filefield-upload-is-not-working-for-me",
+        "completion_date": "2015-05-05",
+        "client": 6,
+        "upvotes": -1,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "upload_files/1432131027_49_new.jpg",
+        "description": "\r\n12\r\ndown vote\r\naccepted\r\nThe problem is that you are using Django 1.8 while going through 1.6 tutorial. Pay attention to the first words at the beginning of the tutorial:\r\n\r\nThis tutorial is written for Django 1.6 and Python 2.x. If the Django version doesn\u2019t match, you can refer to the tutorial for your version of Django by using the version switcher at the bottom right corner of this page, or update Django to the newest version.\r\nIn your case, either downgrade to 1.6, or use the tutorial for the development (currently 1.8) "
+    },
+    "model": "portfolio.project",
+    "pk": 7
+},
+{
+    "fields": {
+        "name": "Band man",
+        "disciplines": "d",
+        "media": [
+            4
+        ],
+        "project_url": "https://www.youtube.com/watch?v=b43JIn-OGZU&index=15&list=PLxxA5z-8B2xk4szCgFmgonNcCboyNneMD",
+        "completion_date": "2015-05-05",
+        "client": 4,
+        "upvotes": 1,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "upload_files/1432131239_74_new.jpg",
+        "description": "\r\n2\r\ndown vote\r\nfavorite\r\nI have been scratching my head FileField. Does the FileField require a seperate process?\r\n\r\nAlthough my url gets saved .. but my file doesn't get uploaded ... what am i doing wrong?\r\n\r\nThis is my models.py ..."
+    },
+    "model": "portfolio.project",
+    "pk": 8
+},
+{
+    "fields": {
+        "name": "please work",
+        "disciplines": "all",
+        "media": [
+            4
+        ],
+        "project_url": "https://docs.djangoproject.com/en/1.4/howto/static-files/#serving-other-directories",
+        "completion_date": "2015-05-05",
+        "client": 4,
+        "upvotes": 1,
+        "is_public": true,
+        "in_development": false,
+        "thumbnail": "uploaded_files/1432132742_53_new.jpg",
+        "description": "right now!"
+    },
+    "model": "portfolio.project",
+    "pk": 9
+}
+]

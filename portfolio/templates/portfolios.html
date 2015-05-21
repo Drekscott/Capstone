@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<body>
+    <h1>Portfolios</h1>
+{% for my_portfolio in my_portfolios %}
+
+<div>
+
+<h4><a href="/my_portfolios/get/{{my_portfolio.id}}/">{{ my_portfolio.name}}</a></h4>
+<p>{{my_portfolio.body}}</p>    
+</div>
+{% endfor %}
+    </body>
+{% endblock %}

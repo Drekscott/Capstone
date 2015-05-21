@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+
+{% block content %}
+<h1> Portfolio Home </h1>
+<ul>
+  <h2>{{my_portfolio.name}}</h2>
+  <p>{{my_portfolio.description}}</p>
+  <li> {{my_portfolio.client}} </li>
+  <li> {{my_portfolio.media}} </li>
+  <li> {{my_portfolio.disciplines}} </li>
+    {% if my_portfolio.thumbnail %}
+    <p><img src="/static/media/{{my_portfolio.thumbnail}}" class='img-responsive' width="200"/></p>
+    {% endif %}
+    
+    <p>{{my_portfolio.upvotes}}people gave this a void</p>
+    
+    <p><a href="/my_portfolios/like/{{my_portfolio.id}}">Void</a></p>
+  <h3> {{my_portfolio.project_url}}</h3>
+ 
+<h2><a href ="/portfolio/create">Create Portfolio</a></h2>
+
+</ul>
+
+{% endblock %}

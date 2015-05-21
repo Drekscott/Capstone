@@ -1,0 +1,11 @@
+
+
+<h1> About Home </h1>
+{% if about_List %}
+<ul>
+{% for o in about_List %}
+  <h2>{{o.title}}</h2>
+  <h3>{{o.fname}} | {{o.lname}}</h3>
+{%endfor%}
+</ul>
+{% endif %}
